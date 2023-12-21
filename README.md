@@ -1,4 +1,3 @@
-# HuffmanCoding
 ***How to run the script (encode.c decode.c)***<br>
 The first script, encrypt, reads in user input and prints out the compressed file. The second script, decrypt, takes in encrypted inputs and prints out the original file. To compile the script, type in the command line “make”, “make encode”, or “make decode”. Make compiles both scripts, while the other two compile the corresponding programs. Afterward, you can run the program by writing “echo [text] | ./[script]” or “cat [filename] | ./[script]” followed by command line options. For example, to get only the encrypt file, you could write: “cat [filename] | ./encrypt”, and to encrypt the file and then immediately decrypt it, write “cat [filename] | ./encrypt | ./decrypt”.
 <br>
@@ -65,3 +64,5 @@ huffman.c - implements functions that are related to the binary trees.
 9)) Write and read functions - https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/ 
 
 10)) fstat() - https://linux.die.net/man/2/fstat
+
+
